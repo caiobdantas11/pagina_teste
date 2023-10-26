@@ -1,31 +1,152 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Membrana Plasmática e Parede Celular</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div id="video_inicio">
-        <div class="video"> <video class="video" src="./video/video.mp4" controls type="video/mp4"></video> </div>
-    </div>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Membrana Plasmática e Parede Celular</li>
+                <li class="lista-menu__item">
+                    <a href="membrana-plasmatica.html" class="lista-menu__link">Membrana Plasmática</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="Parede-Celular.html" class="lista-menu__link">Parede Celular</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="curiosidades.html" class="lista-menu__link">Curiosidades</a>
+                </li>
+            </ul>
 
-    <div class="parte_texto">
-        <h2>Membrana Plasmática e Parede Celular</h2>
-        <p>A Membrana Plasmática é uma barreira de proteção que faz o transporte
-            de substâncias, regulando o transporte das substâncias para dentro e fora da
-            célula. Já a parede Celular é encontrada em células vegetais para conferir
-            proteção contra o excesso de patógenos e até mesmo a entrada excessiva de
-            água. Além disso, a parede celular garante a rigidez da célula. Existem dois tipos
-            de parede celular sendo ela a primária e a secundária, a primária está presente
-            em todas as células e a secundária se encontra entre a membrana e a parede
-            primária sua função é garantir a resistência dada pela primeira parede celular.</p>
-            <img src="./imgs/imagem.png">
-    </div>
+                <a href="https://www.ifrn.edu.br">
+                    <img src="img/logo.jpg" class="logo container__imagem" alt="Logo">
+                </a>
+        
+            
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Usuario.svg" alt="Perfil do usuário" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Membrana Plasmática e Parede Celular</h2>
+        <p class="banner__texto">A membrana plasmática é uma estrutura presente em todas as células e caracteriza-se por ser constituída por uma dupla camada lipídica onde estão embebidas algumas proteínas.
+        A parede celular, também conhecida por parede celulósica, é uma estrutura feita de celulose. A celulose confere à célula, resistência, flexibilidade e ajuda na proteção da unidade celular.
+        </p>        
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo"></h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="img_carrossel" src="img/Mp.png"
+                        alt="Imagem 1"></div>
+                <div class="swiper-slide"><img class="img_carrossel" src="img/Membrana-Plasmática-transporte-e1535987263474.jpg"
+                        alt="Imagem 2"></div>
+                <div class="swiper-slide"><img class="img_carrossel" src="img/PC.jpg"
+                        alt="Imagem 3"></div>
+                <div class="swiper-slide"><img class="img_carrossel" src="img/parede.jpg"
+                            alt="Imagem 4"></div>
+                
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Funções da Membrana Plasmática</h3>
+                    <p class="descrição__texto">Define os limites da célula, garantir proteção das estruturas da célula, permitir que as diferenças entre o meio externo e o meio intracelular sejam mantidas.
+                        Selecionar o que entra e o que sai da célula. Em virtude da capacidade de selecionar essas substâncias, dizemos que a membrana plasmática apresenta
+                    permeabilidade seletiva e conseguir captar sinais externos. </p>
+                    <h2 class="descrição__titulo-subtitulo">Funções da Parede Celular</h2>
+                    <p class="descrição__texto">A parede celular é um componente estrutural importante, pois atua em processos como adesão, crescimento e 
+                        diferenciação celular. Além disso, a parede celular confere também resistência à célula, dá formato e delimita o espaço ocupado pelas organelas citoplasmáticas.
+                        Ela funciona como um filtro para a célula, já que fica em contato com o meio extracelular. </p>
+                </div>
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botões">
+            </div>
+        </div>
+    </section>
+
+    <section class="card">
+        <iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Membrana Plasmática</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Parede Celular</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Curiosidades</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Sobre o Projeto</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Tópico 5</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Tópico 6</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Título de painel final</h2>
+        <p class="contato__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est corrupti unde repellat nulla accusantium hic similique reiciendis sed. Animi, ipsam! Cumque, quas adipisci? Tempora perspiciatis nulla veniam magni animi aliquam.</p>
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">IFRN - Biomaket</h2>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
+
 </html>
