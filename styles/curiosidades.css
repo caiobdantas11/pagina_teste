@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0964db;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.curiosity h3 {
+    color:green;
+}
+.curiositi h3 {
+    color:blue;
+}
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+.descrição__texto {
+    font-weight: bold;
+}
